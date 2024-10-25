@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """<b>ʜᴇʏ {}, <i>{}</i>
     
-ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ YOUR BOOKS!! 🎭 ɪ ᴀᴍ ʏᴏᴜʀ ᴅᴀʀᴋ ᴍᴀᴇꜱᴛʀᴏ, ʜᴇʀᴇ ᴛᴏ ᴅᴇʟɪᴠᴇʀ ᴛʜᴇ ʙᴇꜱᴛ ᴍᴏᴠɪᴇꜱ ᴀɴᴅ ᴡᴇʙꜱᴇʀɪᴇꜱ ꜱᴛʀᴀɪɢʜᴛ ᴛᴏ ʏᴏᴜʀ ʟᴀɪʀ.\n\nᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ <b>'ꜰᴜʟʟ ᴀᴅᴍɪɴ ʀɪɢʜᴛꜱ'</b> ᴀɴᴅ ꜱᴜᴍᴍᴏɴ ᴍᴇ ᴡɪᴛʜ ᴛʜᴇ /settings ᴄᴏᴍᴍᴀɴᴅ.\n\nᴏɴᴄᴇ ᴜɴʟᴇᴀꜱʜᴇᴅ, ᴘʀᴇᴘᴀʀᴇ ᴛᴏ ᴡɪᴛɴᴇꜱꜱ ᴍʏ ᴡɪᴄᴋᴇᴅ ᴘᴏᴡᴇʀꜱ ɪɴ ꜰᴜʟʟ ꜰᴏʀᴄᴇ! 😈🍿</b>"""
+ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ 𝕐𝕠𝕦𝕣 𝔹𝕠𝕠𝕜𝕤!! 📚 ɪ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴡɪᴛʜ ᴛʜᴇ ʙᴏᴏᴋꜱ ʏᴏᴜ ʀᴇQᴜᴇꜱᴛ!\n\nᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ <b>'ꜰᴜʟʟ ᴀᴅᴍɪɴ ʀɪɢʜᴛꜱ'</b> ᴀɴᴅ ꜱᴜᴍᴍᴏɴ ᴍᴇ ᴡɪᴛʜ ᴛʜᴇ /settings ᴄᴏᴍᴍᴀɴᴅ.\n\nᴏɴᴄᴇ ᴜɴʟᴇᴀꜱʜᴇᴅ, ᴘʀᴇᴘᴀʀᴇ ᴛᴏ ᴡɪᴛɴᴇꜱꜱ ᴍʏ ᴘᴏᴡᴇʀꜱ ɪɴ ꜰᴜʟʟ ꜰᴏʀᴄᴇ! 📚🎀 </b>"""
 
     MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>ʜᴇʀᴏᴋᴜ</a>
 ★ Database: <a href=https://www.mongodb.com>MongoDB</a>
@@ -47,7 +47,7 @@ I can't find the <b>{}</b> file in my database! 🥲
 
 👉 Search using Google and check if your spelling is correct.
 👉 Please read the Instructions properly to get better results.
-👉 Or it might be possible that the movie or webseries has not been released yet."""
+👉 Or it might be possible that the book has not been released yet."""
     
     EARN_TXT = """<b>ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ ꜰʀᴏᴍ ᴛʜɪs ʙᴏᴛ
 
@@ -77,21 +77,11 @@ I can't find the <b>{}</b> file in my database! 🥲
 
 📝 ɴᴏᴛᴇ:- ʏᴏᴜ sʜᴏᴜʟᴅ ɴᴏᴛ ʙᴇ ᴀɴ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ ɪɴ ɢʀᴏᴜᴘ. sᴇɴᴅ ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜᴏᴜᴛ ʙᴇɪɴɢ ᴀɴ ᴀɴᴏɴʏᴍᴜs ᴀᴅᴍɪɴ.</b>"""
 
-    IMDB_TEMPLATE = """✅ I Found: <code>{query}</code>
-
-🏷 Title: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating} / 10</a>
-☀️ Languages: {languages}
-📀 RunTime: {runtime} Minutes
-
-🗣 Requested by: {message.from_user.mention}
-©️ Powered by: <b>{message.chat.title}</b>"""
+    IMDB_TEMPLATE = """https://envs.sh/AGH.mp4"""
 
     FILE_CAPTION = """<i>{file_name}</i>
 
-🚫 ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ / ꜱᴇʀɪᴇꜱ 🚫"""
+🚫 ᴘʟᴇᴀꜱᴇ ʀᴇᴍᴇᴍʙᴇʀ ᴛᴏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ "ᴄʟᴏꜱᴇ" ʙᴜᴛᴛᴏɴ ᴏɴᴄᴇ ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴅ ᴛʜᴇ ʙᴏᴏᴋ 🚫"""
 
     WELCOME_TEXT = """👋 Hello {mention}, Welcome to {title} group! 💞"""
 
